@@ -1,41 +1,22 @@
 # Nimbus_Project_Smart-Vehicle-Maintenance-Tracker-Real-world_Project_No.48
-Develop a program that:  Records vehicle details (number, last service date, mileage).  Predicts next service using average daily usage.  Sends alerts for overdue services.
-🛠️ Smart Vehicle Maintenance Tracker
-
-A modular C project for predicting service schedules and tracking fleet maintenance.
-
 📌 Overview
 
 The Smart Vehicle Maintenance Tracker is a C-based mini-project designed to help fleet managers monitor vehicle health, track service records, and get timely maintenance alerts.
 It uses structures, functions, arrays, pointers, and dynamic memory — aligning perfectly with academic requirements and real-world fleet management systems.
 
-🚗 Real-World Context
-
-Fleet managers often face challenges such as:
-
-Tracking multiple vehicles
-
-Monitoring service history
-
-Predicting next service schedules
-
-Preventing overdue maintenance
-
-This program simplifies the process with automated calculations and alerting logic.
-
 🎯 Project Objectives
 
 The system allows users to:
 
-Record vehicle number, mileage, and last service date
+1.Record vehicle number, mileage, and last service date
 
-Estimate next service date/mileage based on average daily usage
+2.Estimate next service date/mileage based on average daily usage
 
-Generate alerts for overdue services
+3.Generate alerts for overdue services
 
-Maintain dynamic, expandable records using pointers
+4.Maintain dynamic, expandable records using pointers
 
-Provide reports using arrays and functions
+5.Provide reports using arrays and functions
 
 🧩 Features
 
@@ -62,65 +43,40 @@ Provide reports using arrays and functions
 📘 Concepts Applied (Syllabus Mapping)
 Problem Solving
 
-Identifying fleet maintenance problems
+1.Identifying fleet maintenance problems
 
-Converting real-world logic into program flow
+2.Converting real-world logic into program flow
 
-Decision Making
+3.Decision Making
 
-Overdue alert logic
+4.Overdue alert logic
 
-Service scheduling rules
+5.Service scheduling rules
 
-Arrays & Functions
+6.Arrays & Functions
 
-Vehicle record storage
+7.Vehicle record storage
 
-Reporting all vehicles
+8.Reporting all vehicles
 
-Modular codebase
+9.Modular codebase
 
-Structures
+10.Structures
 
-Vehicle structure stores:
+11.Vehicle structure stores:
 
-Number
+12.Number
 
-Last service date
+13.Last service date
 
-Mileage
+14.Mileage
 
-Average daily usage
+15.Average daily usage
 
-Pointers & Dynamic Memory
+16.Pointers & Dynamic Memory
 
-Runtime expansion of vehicle list using realloc()
+17.Runtime expansion of vehicle list using realloc()
 
-Returned pointer arrays for record management
+18.Returned pointer arrays for record management
 
-🎓 Course Outcomes Covered (CO Mapping)
-CO	Description	How Project Achieves It
-CO1	Define scheduling algorithm	Mileage-based + date-based service prediction
-CO2	Implement condition logic	Overdue check, reminder alerts
-CO3	Use arrays/functions	Report generation, searching, multiple vehicles
-CO4	Use dynamic memory & pointers	Dynamic vehicle list using malloc & realloc
-CO5	Build modular system	4 source + 4 header files, well-structured code
-🔧 Compilation & Execution
-gcc main.c vehicle.c utils.c service.c ui.c -o mainttrack
-./mainttrack
 
-📝 Future Enhancements
-
-Exporting data to text/CSV
-
-Sorting vehicles by next service date
-
-Service history logs
-
-Maintenance cost tracking
-
-Real date/time library integration
-
-© License
-
-This is a student academic project and can be reused for learning purposes.
